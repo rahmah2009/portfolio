@@ -15,7 +15,7 @@ export default function ContactPage() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Email</label>
+            <label className="block text-sm font-medium text-gray-700">Emailgit add</label>
             <input
               type="text"
               className="mt-1 w-full px-4 py-2 border rounded-md"

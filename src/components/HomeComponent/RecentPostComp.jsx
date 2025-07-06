@@ -9,7 +9,7 @@ const RecentPostsComp = () => {
             <div className='w-full sm:w-[856px] mx-auto flex flex-col'>
                 <div className='w-full flex items-center justify-center sm:justify-between'>
                     <TitleComp title='Recent posts' />
-                    <Link href='works]' className='text-[#00A8CC] text-base font-normal hidden sm:block'>View all</Link>
+                    <Link href='blog]' className='text-[#00A8CC] text-base font-normal hidden sm:block'>View all</Link>
                 </div>
                 <div className='w-full flex flex-col sm:flex-row items-center justify-between'>
                     <article className='w-full sm:w-[418px] h-auto sm:h-[295px] rounded-[4px] bg-white p-[26px] flex flex-col items-start gap-4' style={{

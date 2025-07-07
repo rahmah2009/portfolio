@@ -7,7 +7,7 @@ export default function ContactPage() {
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Contact Me</h2>
         <form className="w-full space-y-5">
           <div>
-            <label className="block text-sm font-medium text-gray-700">Name</label>
+            <label className="block text-sm font-bold text-gray-700">Name</label>
             <input
               type="text"
               className="mt-1 w-full px-4 py-2 border rounded-md"
@@ -15,15 +15,15 @@ export default function ContactPage() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Emailgit add</label>
+            <label className="block text-sm font-bold text-gray-700">Email</label>
             <input
               type="text"
               className="mt-1 w-full px-4 py-2 border rounded-md"
-              placeholder="Email"
+              placeholder="you@example.com"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Message</label>
+            <label className="block text-sm font-bold text-gray-700">Message</label>
             <textarea
               rows={5}
               className="mt-1 w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -32,8 +32,8 @@ export default function ContactPage() {
           </div>
 
           <Link href='mailto:muhammadrahmah005@email.com'
-            type="submit"
-            className="!w-full bg-[#21243D] text-[#FFFF]  font-extrabold rounded-[10px]"
+            // type="submit"
+            className="w-full h-[50px] flex items-center justify-center bg-[#21243D] text-[#FFFF]  font-bold rounded-[10px]"
           >
             Send Message
           </Link>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import HeroComp from "../components/HomeComponent/HeroComp";
 import RecentPostsComp from "../components/HomeComponent/RecentPostComp"
 import FeaturedWorksComp from "../components/HomeComponent/FeaturedWorkComp";
